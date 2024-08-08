@@ -1,0 +1,108 @@
+body{
+    background-color: #292929;
+    text-align: center;
+    color: white;
+}
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.generador{
+    border: 2px solid #3afd88;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+}
+#codigoDiv{
+    color: #28fe48;
+    display: inline;
+}
+#milanesa_fuap{
+    display: block;
+}
+#link_propio{
+    display: none;
+}
+#varios_links{
+    display: none;
+}
+#extencion{
+    display: none;
+}
+#ghdf{
+    display: none;
+}
+#bbb{
+    display: none;
+}
+.links{
+    display: none;
+}
+main{
+    text-align: start;
+}
+.recuadro{
+    background-color: #494949;
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+.recuadro p{
+    display: inline;
+    font-size: 2rem;
+}
+.text{
+    color: white;
+}
+.text input{
+    color: white;
+    padding: 5px;
+    border: 2px solid #3aa8fd;
+    border-radius: 10px;
+    width: 25%;
+    background-color: #303030;
+}
+.btn123{
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    border: 2px solid #fd3ae3;
+    border-radius: 10px;
+}
+.contra{
+    color: #62ff0d;
+}
+#part1{
+    color: #f437fa;
+}
+#part1:hover{
+    color: #dd2aaa;
+}
+
+.tab-content {
+    display: none;
+  }
+  .active-tab {
+    display: block;
+  }
+  .tab-buttons {
+    margin-bottom: 10px;
+  }
+  .active-cartel {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000e38;
+    border: 2px solid #3afdf3;
+    color: white;
+    padding: 20px;
+    z-index: 999;
+  }
